@@ -1,2 +1,2 @@
 # Appli_dev_secu
-Apply for dev secu lesson
+Appli for dev secu lesson
