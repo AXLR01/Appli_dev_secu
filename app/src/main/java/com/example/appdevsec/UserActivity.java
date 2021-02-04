@@ -20,5 +20,6 @@ public class UserActivity extends AppCompatActivity {
     GetAccounts accounts = GetJson.getInstance().create(GetAccounts.class);
     Call<ListAccounts> callListAccounts = accounts.getAccounts();
     Call<User> callUser = user.getUser();
+
 }
 
