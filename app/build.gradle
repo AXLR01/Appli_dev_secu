@@ -46,11 +46,6 @@ dependencies {
     enigma.enabled = true
     enigma.injectFakeKeys = true
 
-    enigma.hash = "LXeyH4qdtk2YqNDnLqZzX5HmPEwEwZEN"
-    enigma.ignoredClasses = ["com.android.application.MainActivity.java", "com.android.application.helpers.Utils.java"]
-    enigma.classes = ["com.android.application.Constants.java"]
-    enigma.srcJava = "app/src/test/java\n" +
-            "app/src/androidTest/java\n" +
-            "app/src/main/java"
+    enigma.ignoredClasses = ["com.android.application.MainActivity.java"]
 
 }

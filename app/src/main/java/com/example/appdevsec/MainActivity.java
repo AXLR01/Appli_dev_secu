@@ -26,11 +26,7 @@ public class MainActivity extends AppCompatActivity{
     public void onClick(View v) {
         editTextLogin = findViewById(R.id.editTextTextPersonName);
         editTextPassword = findViewById(R.id.editTextPassword);
-        try {
-            MessageDigest sha1 = MessageDigest.getInstance("SHA1");
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
+
         inputPassword = editTextPassword.getText().toString();
         if (editTextLogin.getText().toString().equals("Destini") && encryptThisString(inputPassword).equals(password)) {
             Toast.makeText(MainActivity.this, "Username and Password is correct", Toast.LENGTH_SHORT).show();

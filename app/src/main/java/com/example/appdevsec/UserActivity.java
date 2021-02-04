@@ -1,6 +1,10 @@
 package com.example.appdevsec;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.appdevsec.api.GetAccounts;
 import com.example.appdevsec.api.GetJson;
@@ -15,11 +19,6 @@ public class UserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-    GetUser user = GetJson.getInstance().create(GetUser.class);
-    GetAccounts accounts = GetJson.getInstance().create(GetAccounts.class);
-    Call<ListAccounts> callListAccounts = accounts.getAccounts();
-    Call<User> callUser = user.getUser();
 
 }
 
