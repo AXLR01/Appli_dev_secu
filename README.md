@@ -13,7 +13,7 @@ We wanted to check if both of them matched the data in a database but we couldn'
 
 ## App
 
-![images](Screenshot_1.png)
-![images](Screenshot_2.png)
-![images](1.png)
-![images](2.png)
+![Screenshot_1](Screenshot_1.png)
+![Screenshot_2](Screenshot_2.png)
+![1](1.png)
+![2](2.png)
