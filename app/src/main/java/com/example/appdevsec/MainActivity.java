@@ -13,9 +13,9 @@ import java.security.NoSuchAlgorithmException;
 
 
 public class MainActivity extends AppCompatActivity{
-    EditText editTextLogin, editTextPassword;
-    String password = "d033e22ae348aeb5660fc2140aec35850c4da997"; // SHA1 de "admin"
-    String inputPassword;
+    private EditText editTextLogin, editTextPassword;
+    private String password = "d033e22ae348aeb5660fc2140aec35850c4da997"; // SHA1 de "admin"
+    private String inputPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

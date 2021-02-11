@@ -38,7 +38,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public void insertData (String id, String account_name, String amount, String iban, String currency, String name ){
         name = name.replace("'","'");
         String strSql = "insert into Account (id,account_name,amount,iban,currency) values('"+id+"',"
-        +account_name+"',"+amount+"',"+iban+"',"+currency+"',"+name+"')";
+        +account_name+"',"+amount+"',"+iban+"',"+currency+"')";
         this.getWritableDatabase().execSQL(strSql);
     }
 }

@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.chrisney.enigma'
 
 android {
     compileSdkVersion 30
@@ -40,12 +41,8 @@ dependencies {
     // permet de supporter les retours json dans les appels REST
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
-
-    apply plugin: 'com.chrisney.enigma'
-
     enigma.enabled = true
     enigma.injectFakeKeys = true
-
-    enigma.ignoredClasses = ["com.android.application.MainActivity.java"]
+    //enigma.ignoredClasses = ["com.android.application.MainActivity.java"]
 
 }
